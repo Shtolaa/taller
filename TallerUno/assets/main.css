@@ -1,0 +1,95 @@
+
+body{
+    margin: 0px;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+}
+.primerArticulo{
+    width: 100%;
+    height: 800px;
+    
+    background-image: url(recursos/background.png);
+}
+.primerArticulo aside{
+    display: block;
+    justify-content: left;
+    background-color: rgb(217, 190, 140);
+}
+.textoIntermedio{
+    text-align: center;
+}
+
+.cartas{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    
+}
+.cartas th img{
+    border-radius: 5px;
+    width: 75%;
+
+    
+}
+.cartasBody{
+    width: 100%;
+    align-items: center;
+    text-align: left;
+
+}
+.cartasProducto{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 25px;
+
+}
+.productoCard{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    text-align: left;
+    background-color:lightgrey;
+}
+.productoCardNombre{
+
+    color: black;
+    
+}
+.productoCardDesc{
+    color: gray;
+    
+}
+.productoCard img{
+    width: 100%;
+    height: 100%;
+}
+.showMore{
+    color:rgb(160, 160, 21);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: solid;
+    border-color: rgb(160, 160, 21);
+}
+
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 100%);
+}
+footer table{
+    width: 100%;
+    align-items: center;
+    text-align: left;
+}
